@@ -1,0 +1,38 @@
+{
+  "name": "moon-phase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env ELEVENTY_ENV=dev cross-env eleventy --serve",
+    "start:prod": "cross-env ELEVENTY_ENV=prod eleventy --serve",
+    "build": "cross-env ELEVENTY_ENV=prod eleventy",
+    "build:dev": "cross-env ELEVENTY_ENV=dev eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdsteinbach/moon-phase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdsteinbach/moon-phase/issues"
+  },
+  "homepage": "https://github.com/jdsteinbach/moon-phase#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-node-resolve": "^13.2.0",
+    "autoprefixer": "^10.4.4",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.7",
+    "date-fns": "^2.28.0",
+    "postcss": "^8.4.12",
+    "rollup": "^2.70.1",
+    "sass": "^1.50.0"
+  }
+}
